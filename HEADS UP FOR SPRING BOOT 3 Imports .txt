@@ -1,0 +1,20 @@
+HEADS UP FOR SPRING BOOT 3: Imports for Entity classes
+If you are using Spring Boot 3, then you need to make slight changes to the import statements.
+
+You will see these files in upcoming videos. Make note of these changes.
+
+
+
+File: Product.java
+
+Replace: import javax.persistence.*;
+
+With: import jakarta.persistence.*;
+
+
+File: ProductCategory.java
+
+Replace: import javax.persistence.*;
+
+With: import jakarta.persistence.*;
+
